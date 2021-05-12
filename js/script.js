@@ -18,5 +18,5 @@ function enterClicked() {
   const volume = (length * width * height) / 3
 
   //output
-  document.getElementById('Volume').innerHTML = 'Volume is: ' + volume.toFixed(2) + 'cm³'
+  document.getElementById('answer').innerHTML = 'Volume is: ' + volume.toFixed(2) + 'cm³'
 }
